@@ -1,0 +1,19 @@
+node_modules
+dist
+.dist
+.vite
+*.tsbuildinfo
+.DS_Store
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+
+# Firebase web config — keep secrets out of git
+src/firebase-config.json
+
+# Editor
+.vscode
+.idea
+.claude/settings.local.json
